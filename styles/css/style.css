@@ -1,0 +1,82 @@
+.background-top{
+  width:100%;
+    background-image:url('../../assets/korea1.jpg');
+  height:330px;
+}
+body{
+
+  margin:0;
+}
+
+header{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+  border-bottom:3px solid;
+}
+
+h1{
+  margin:0;
+}
+
+h1 a{
+    text-decoration: none;
+    color: Black;
+}
+
+#login form{
+  padding-top:10px;
+  padding-right:20px;
+  text-align: right;
+}
+
+#login form input{
+  width:100px;
+}
+
+nav {
+  border-bottom:3px solid;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: orange;
+
+}
+
+nav a{
+  border-right:3px solid;
+  text-align:center;
+  text-decoration: none;
+  color:black;
+}
+
+#sign-up-box{
+  width:55%;
+}
+
+.inputbox{
+  text-align:right;
+}
+#sidebar{
+  border:3px solid blue;
+  width:100px;
+  height:500px;
+  float:left;
+}
+
+#sidebar ul{
+  list-style:none;
+  padding-left:20px;
+}
+
+#sidebar li{
+  border:1px solid red;
+  padding-top:5px;
+}
+
+#sidebar li a{
+  text-decoration: none;
+}
+
+.tab{
+  background-color:white;
+  
+}
